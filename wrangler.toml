@@ -1,0 +1,11 @@
+name = "alist-redirect"
+type = "javascript"
+
+[build]
+command = "npm run build"
+cwd = "./"
+watch_dir = "./dist"
+
+[env.production]
+name = "alist-redirect"
+branch = "main"
